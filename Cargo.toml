@@ -1,0 +1,20 @@
+[package]
+name = "morse-toolkit"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = {version = "*", features = ["derive"]}
+serde-xml-rs = "*"
+lazy_static = "*"
+eframe = {version = "*", optional = true}
+
+[dev-dependencies]
+arbitrary = {version = "*", features = ["derive"]}
+rand = "*"
+
+[features]
+default = ["gui"]
+gui = ["eframe"]

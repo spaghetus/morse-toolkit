@@ -1,0 +1,8 @@
+{
+	"xml": {
+		"snippets": {
+			"dit": "<dit>${cursor}</dit>",
+			"dah": "<dah>${cursor}</dah>"
+		}
+	}
+}

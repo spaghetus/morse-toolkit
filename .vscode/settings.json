@@ -1,0 +1,19 @@
+{
+	"emmet.includeLanguages": {
+		"xml": "xml"
+	},
+	"xml.format.enabled": true,
+	"emmet.extensionsPath": [
+		"./snippets.json"
+	],
+	"cSpell.words": [
+		"Bools",
+		"deser",
+		"eframe",
+		"egui",
+		"epaint",
+		"hline",
+		"Peekable",
+		"vline"
+	]
+}
